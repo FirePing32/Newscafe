@@ -133,8 +133,8 @@ android {
         applicationId "com.Newscafe"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 5
-        versionName "1.21"
+        versionCode 6
+        versionName "1.22"
         multiDexEnabled true
     }
     splits {
