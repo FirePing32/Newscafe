@@ -36,10 +36,9 @@ export default class About extends React.Component {
     separator={true} 
     inColumn={false}>
   <View style={{ justifyContent: "center", alignSelf: "center", flex: 1, flexDirection: "row" }}>
-  <Icon name="web" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("https://www.prakhargurunani.com")}/>
-  <Icon name="twitter" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("https://twitter.com/PrakharGurunani")}/>  
-  <Icon name="instagram" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("https://www.instagram.com/prakhargurunani/")}/>
-  <Icon name="youtube" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("https://www.youtube.com/c/PrakharGurunani")}/>
+  <Icon name="web" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("http://goto.vercel.app/websit")}/>
+  <Icon name="twitter" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("http://goto.vercel.app/twitte")}/> 
+  <Icon name="linkedin" style={{ margin: 15, color: theme === 'dark' ? 'white' : 'blue' }} size={25} onPress={() => Linking.openURL("http://goto.vercel.app/linked")}/>   
   </View>
   </CardAction>
   <CardAction 
